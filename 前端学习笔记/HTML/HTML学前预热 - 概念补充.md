@@ -45,7 +45,7 @@
 
 ## 四、浏览器请求数据的过程
 
-![HTML-1-1](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/4da0f880c2e54e9e80feaaac33f3d7f3~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgam9iaW53ZWk=:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiNjg3NjUxMTIxMDExNzA3In0%3D\&rk3s=e9ecf3d6\&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018\&x-orig-expires=1764400180\&x-orig-sign=3aawWoiPdaWu5Ws2I%2BEEpN%2FK3MA%3D)
+![HTML-1-1](https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-1-1.png)
 
 请求报文：请求行 + 请求头 + 空行 + 请求体
 

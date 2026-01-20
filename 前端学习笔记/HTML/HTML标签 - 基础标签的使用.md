@@ -15,6 +15,10 @@ theme: condensed-night-purple
     <h5>五级标题</h5>
     <h6>六级标题</h6>
     ```
+-   渲染效果：
+
+    <img src="https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-basic-h.png" alt="h标签渲染样式" style="zoom: 50%;" />
+
 -   注意点：
     + `h`系列标签是用来给文本添加语意的，而不是用来修改文本样式的。
     + `h`系列标签一共有6个，从`h1`～`h6`，超过6个则无效。
@@ -29,6 +33,16 @@ theme: condensed-night-purple
     ```html
     <p>段落文本</p>
     ```
+-   渲染效果：
+
+    ```html
+    <!--源代码-->
+    <h1>html5网页</h1>
+    <p>HTML（标准通用标记语言下的一个应用）标准自1999年12月发布的 HTML 4.01 后，后继的 HTML 5 和其它标准被束之高阁，为了推动Web标准化运动的发展，一些公司联合起来，成立了一个叫做 Web Hypertext Application Technology Working Group （Web 超文本应用技术工作组 - WHATWG） 的组织。</p>
+    ```
+
+    ![p标签渲染样式](https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-basic-p.png)
+
 -   注意点：`p`标签在浏览器中独占一行。
 
 ## hr标签
@@ -38,9 +52,22 @@ theme: condensed-night-purple
     ```html
     <hr/>
     ```
--   注意点：
-    -   在浏览器上单独占据一行。
-    -   `hr`标签，可以写`/`，可以不写`/`，带`/`的标签就是按照XHTML的规范编写，没有的就是按照HTML编写的。但是在HTML5中，由于HTML5兼容HTML和XHTML，故写不写都可以。
+-   渲染效果：
+    
+    ```html
+    <!--源代码-->
+    <h1>html5网页</h1>
+    <p>HTML（标准通用标记语言下的一个应用）标准自1999年12月发布的 HTML 4.01 后，后继的 HTML 5 和其它标准被束之高阁，为了推动Web标准化运动的发展，一些公司联合起来，成立了一个叫做 Web Hypertext Application Technology Working Group （Web 超文本应用技术工作组 - WHATWG） 的组织。</p>
+    <hr>
+    <h1>CSS</h1>
+    <p>CSS（层叠样式表，Cascading Style Sheets）是一种用于描述HTML或XML文档样式的计算机语言，可通过选择器和声明组成的规则控制网页元素的呈现形式</p>
+    ```
+    
+    ![hr标签渲染样式](https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-basic-hr.png)
+- 注意点：
+
+  -   在浏览器上单独占据一行。
+  -   `hr`标签，可以写`/`，可以不写`/`，带`/`的标签就是按照XHTML的规范编写，没有的就是按照HTML编写的。但是在HTML5中，由于HTML5兼容HTML和XHTML，故写不写都可以。
 
 ## br标签
 
@@ -49,9 +76,25 @@ theme: condensed-night-purple
     ```html
     <br>
     ```
--   注意点：
-    -   `br`标签可以连续使用，使用多少个`br`标签，就可以换多少行。
-    -   由于HTML的作用就是用来给文本添加语义，`br`标签的语义是不另起一个段落换行，但是在我们开发时，一般情况下需要换行都是因为需要另起一个段落，所以在开发时我们一般很少使用`br`标签。
+-   渲染样式：
+    
+    ```html
+    <h1>html5网页</h1>
+    <p>HTML（标准通用标记语言下的一个应用）标准自1999年12月发布的 HTML 4.01 后，后继的 HTML 5 和其它标准被束之高阁，为了推动Web标准化运动的发展，一些公司联合起来，成立了一个叫做 Web Hypertext Application Technology Working Group （Web 超文本应用技术工作组 - WHATWG） 的组织。</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>CSS</h1>
+    <p>CSS（层叠样式表，Cascading Style Sheets）是一种用于描述HTML或XML文档样式的计算机语言，可通过选择器和声明组成的规则控制网页元素的呈现形式</p>
+    ```
+    
+    ![br标签渲染样式](https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-basic-br.png)
+- 注意点：
+
+  -   `br`标签可以连续使用，使用多少个`br`标签，就可以换多少行。
+  -   由于HTML的作用就是用来给文本添加语义，`br`标签的语义是不另起一个段落换行，但是在我们开发时，一般情况下需要换行都是因为需要另起一个段落，所以在开发时我们一般很少使用`br`标签。
 
 ## img标签
 
