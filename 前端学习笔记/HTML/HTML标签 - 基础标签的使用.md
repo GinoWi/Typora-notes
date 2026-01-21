@@ -99,10 +99,20 @@ theme: condensed-night-purple
 ## img标签
 
 -   作用：`img`标签中的img其实是英文image的缩写，所以`img`标签的作用，就是告诉浏览器需要显示一张图片。
+
 -   格式：
     ```html
     <img src="图片路径">
     ```
+
+-   渲染样式：
+
+    ```html
+    <img src="img/Shin-chan-1.webp" alt="图片丢失">
+    ```
+
+    ![img标签](https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-basic-img-1.png)
+
 -   属性：
     -   `src`：src是英文source的缩写，所以src属性就是用来告诉`img`标签，需要显示的图片路径。
     -   `width`：用于设置图片的宽度，若没有指定需要显示的图片的宽度，那么系统会按照图片默认的宽度来显示。
@@ -133,16 +143,28 @@ theme: condensed-night-purple
 
 ## a标签
 
--   作用：就是用于控制页面与页面之间的跳转
+- 作用：就是用于控制页面与页面之间的跳转
+
 -   格式：
     ```html
     <a href="指定需要跳转的页面地址">需要展现给用户查看的内容</a>
     ```
+    
+-   渲染样式：
+    
+    ```html
+    <a href="https://www.baidu.com">点击跳转</a>
+    ```
+    
+    <img src="https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/image-20260121112102345.png" alt="image-20260121112102345" style="zoom: 50%;" />
+    
 -   属性：
+    
     -   `target`：专门用于控制如何跳转到指定的页面地址。
         -   `_self`：用于在当前选项卡中跳转，也就是不新建选项卡跳转。`target`属性默认就是`_self`。
         -   `_blank`：用于在新的选项卡中跳转，也就是新建界面跳转。
     -   `title`：同`img`标签的`title`属性一样，都是用于显示鼠标悬停时所展示的提示。
+    
 -   注意点：
     -   `a`标签不仅能够让文字可以点击，还能够让图片可以点击。
     -   一个`a`标签必须有一个`href`属性，否则`a`标签不知道要跳转到什么地方。
