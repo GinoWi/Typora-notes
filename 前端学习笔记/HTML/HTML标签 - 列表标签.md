@@ -23,6 +23,40 @@
 </ul>
 ```
 
++ 样式渲染：
+
+  ```html
+  <h1>四大名著</h1>
+  <ul>
+    	<li>
+  			<h2>《三国演义》</h2>
+  			<p>
+            《三国演义》段落描述
+        </p>
+      </li>
+      <li>
+        <h2>《水浒传》</h2>
+        <p>
+            《水浒传》段落描述
+        </p>
+      </li>
+      <li>
+        <h2>《红楼梦》</h2>
+        <p>
+            《红楼梦》段落描述
+        </p>
+  		</li>
+      <li>
+        <h2>《西游记》</h2>
+        <p>
+            《西游记》段落描述
+        </p>
+      </li>
+  </ul>
+  ```
+
+  <img src="https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-list-1.png" alt="list标签" style="zoom: 33%;" />
+
 -   注意点：
 
     -   **无序列表是用来给一堆数据添加列表语义的，而不是用于给这一堆数据添加小圆点样式的。**
@@ -53,7 +87,20 @@
 </ol>
 ```
 
--   有序列表的区别仅仅是是否有先后之分，其他的使用方法和注意点与无序列表`ul`标签都差不多。
+- 渲染样式：
+
+  ```html
+  <h1>班级成绩排名</h1>
+  <ol>
+      <li>李强 100分</li>
+      <li>张三 80分</li>
+      <li>李四 70分</li>
+  </ol>
+  ```
+
+  <img src="https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-list-2.png" alt="有序列表" style="zoom:50%;" />
+
+- 有序列表的区别仅仅是是否有先后之分，其他的使用方法和注意点与无序列表`ul`标签都差不多。
 
 ### 定义列表（definition list）
 
@@ -69,6 +116,19 @@
   <dd>中国的经济中心</dd>
 </dl>
 ```
+
++ 渲染样式：
+
+  ```html
+  <dl>
+    <dt>北京</dt>
+    <dd>中国的首都</dd>
+    <dt>上海</dt>
+    <dd>中国的经济中心</dd>
+  </dl>
+  ```
+
+  <img src="https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-list-3.png" alt="有序列表" style="zoom:50%;" />
 
 -   标签含义：`dt`和`dd`都是英文缩写，`dt`是definition title的缩写，所以`dt`的含义就是用来定义**列表中的标题**；`dd`是definition description的缩写，所以`dd`的含义就是用来定义**标题对应的描述**。
 

@@ -156,7 +156,7 @@ theme: condensed-night-purple
     <a href="https://www.baidu.com">点击跳转</a>
     ```
     
-    <img src="https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/image-20260121112102345.png" alt="image-20260121112102345" style="zoom: 50%;" />
+    <img src="https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/HTML-basic-a.png" alt="a标签" style="zoom: 50%;" />
     
 -   属性：
     
