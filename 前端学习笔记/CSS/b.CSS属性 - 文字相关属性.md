@@ -194,6 +194,8 @@
 
 + 简写格式：`font: {style} {weight} {size} {family};` 例如：`font: italic bold 10px "楷体";`
 
++ 快捷键：输入`f` + 按下`Tab`键
+
 + 注意点：
   + 在这种缩写格式中，`weight`属性可以省略不写。
   + 在这种缩写格式中，`style`属性和`weight`属性位置可以交换。
