@@ -59,7 +59,7 @@
 
 
 
-二、文本水平对齐的属性
+### 文本水平对齐的属性
 
 + 格式：`text-align: center;`
 
@@ -110,8 +110,6 @@
   ```
 
   ![text-align属性](https://picgo-storage-typora.oss-cn-shanghai.aliyuncs.com/CSS-text-align.png)
-
-
 
 ### 文本缩进的属性
 
