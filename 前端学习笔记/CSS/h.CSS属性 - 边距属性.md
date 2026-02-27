@@ -287,7 +287,7 @@ margin: ${margin-top} ${margin-right} ${margin-bottom} ${margin-left};
 > + 清除浮动影响
 
 + 可以通过触发BFC来解决外边距合并的问题
-+ 可以通过设置padding、border属性来解决
++ 可以通过设置`padding`、`border`属性来解决
 
 
 
