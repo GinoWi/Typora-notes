@@ -28,3 +28,18 @@ be 动词引导的疑问句：将 be 动词放到句首，句尾添加问号。
 
 回答的时候通常使用 Yes/No 开头，后面用 be 动词简短形式回答。
 
+
+
+带 How 的意见性疑问句，使用 how is 或者 how are 征求某人的意见。
+
+How's you class?
+
+How are you classes?
+
+回答可以是肯定、中立或者否定
+
+肯定： He is good.
+
+中立：He's ok. / They are so-so.
+
+否定：He is bad. / They are terrible.
